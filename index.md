@@ -2,3 +2,6 @@
 This is just some text.
 ## H2 Header
 more text...
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
