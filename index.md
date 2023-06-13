@@ -5,3 +5,8 @@ more text...
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
+```
+import os
+x = os.environ.get('X')
+print(x)
+```
