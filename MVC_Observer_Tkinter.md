@@ -65,3 +65,15 @@ if __name__ == "__main__":
     root.protocol("WM_DELETE_WINDOW", click_controller.save_click_count)
     root.mainloop()
 ```
+---
+In this updated example, we have introduced a ClickController class that represents the Controller in the MVC pattern. It acts as an intermediary between the View and the Model, facilitating communication between them. The ClickController class includes a save_click_count method responsible for saving the click count to the database.
+
+The ClickModel class remains the same as before, serving as the Model that holds the click count and notifies observers of changes.
+
+The ClickView class represents the View and contains the Tkinter GUI components. It registers itself as an observer of the ClickModel and updates the label text when notified.
+
+The main section of the code initializes the Tkinter root window, creates instances of the Model, View, and Controller, and associates them together. The save_click_count method of the ClickController is bound to the window's close event to save the click count in the database before exiting.
+
+By incorporating the MVC pattern along with the Observer pattern, the View remains decoupled from the Model, and the Controller handles any necessary actions or interactions between them. This separation of concerns enhances the maintainability and modularity of the codebase.
+
+Again, please note that this example focuses on the integration of the MVC and Observer patterns using Tkinter. It is a simplified illustration and may not include all the necessary error handling or comprehensive database management that would be required in a production-ready application.
