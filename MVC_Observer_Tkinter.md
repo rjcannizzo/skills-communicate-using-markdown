@@ -47,6 +47,7 @@ class ClickView:
 class ClickController:
     def __init__(self, model):
         self._model = model
+
     def save_click_count(self):
         db_connection = sqlite3.connect("clicks.db")
         cursor = db_connection.cursor()
