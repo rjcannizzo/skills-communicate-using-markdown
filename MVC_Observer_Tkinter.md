@@ -77,3 +77,7 @@ The main section of the code initializes the Tkinter root window, creates instan
 By incorporating the MVC pattern along with the Observer pattern, the View remains decoupled from the Model, and the Controller handles any necessary actions or interactions between them. This separation of concerns enhances the maintainability and modularity of the codebase.
 
 Again, please note that this example focuses on the integration of the MVC and Observer patterns using Tkinter. It is a simplified illustration and may not include all the necessary error handling or comprehensive database management that would be required in a production-ready application.
+
+source: ChatGTP 
+https://chat.openai.com/share/0501385b-7092-4823-a3fc-683753068903
+
